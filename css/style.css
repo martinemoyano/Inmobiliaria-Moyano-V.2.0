@@ -1,0 +1,21 @@
+*{margin: 0;
+padding: 0;}
+/* estilo menu navegacion */
+div ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.destacadas{
+    font-size: 10vh;
+}
+
+.dropdown-menu li a{
+    font-size: 15px;
+}
+
+
+.separador{
+    height: 10px;
+}
+
