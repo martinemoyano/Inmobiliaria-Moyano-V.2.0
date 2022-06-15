@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 /* estilo menu navegacion */
 div ul li a {
@@ -53,6 +53,7 @@ div ul li a {
 .main {
     margin-left: 2%;
     margin-right: 2%;
+
 }
 
 .grids {
@@ -84,6 +85,26 @@ div ul li a {
 
 .nosotros {
     max-width: 600px;
+   border: 2px solid black;
+   padding: 10px;
+   background-color: #ffffff;
+   opacity: 0.6;
+   
+    
+}
+.cajaRequisitos{
+    
+    border: 2px solid black;
+   padding: 10px;
+   background-color:#ffffff;
+   opacity: 0.6;
+   height: fit-content;
+   max-width: 600px;
+   min-width: 400px;
+}
+
+.caja{
+padding-top: 20px;
 }
 
 .row {
@@ -99,15 +120,21 @@ div ul li a {
     padding-left: 10px;
 }
 
-.texto {
-    height: 70vh;
-}
+
 
 /* FORMULARIO DE CONTACTO */
 .form {
     max-width: 600px;
     margin-top: 30px;
     margin: auto;
+    height: 70vh;
+}
+
+.formulario{
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 15px;
+
 }
 
 ion-icon {
@@ -123,6 +150,27 @@ ion-icon {
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 500;
+}
+
+/* PRUEBA DE ESTILOS */
+.mapa {
+    border: 2px solid black;
+    height: 150px;
+   position: relative;
+    overflow: hidden;
+}
+
+.fondoNosotros{
+    background-image: url('../img-inmobiliaria/felipe-labate-9uICMSlbtCo-unsplash.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+
+.fondoRequisitos{
+    display: flex;
+    background-image: url('../img-inmobiliaria/christian-von-koenig-J0JUSlMvrFY-unsplash.jpg');
+    background-size: cover;
+    height: 70vh;
 }
 
 /* MEDIA QUERIES */
@@ -142,8 +190,11 @@ ion-icon {
         font-size: 0.8rem;
     }
 
-    .form {
+    .formulario {
         max-width: 380px;
+        background-color: lightsteelblue;
+        border: 3px solid gray;
+        border-radius: 10px;
 
     }
 
